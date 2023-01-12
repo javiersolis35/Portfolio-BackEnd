@@ -1,6 +1,7 @@
 
 package com.PortfolioAP.Portfolio.Security.Entity;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
@@ -16,7 +17,7 @@ import javax.validation.constraints.NotNull;
 
 
 @Entity
-public class Usuario {
+public class Usuario implements Serializable {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
