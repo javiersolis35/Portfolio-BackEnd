@@ -1,7 +1,7 @@
 
 package com.PortfolioAP.Portfolio.Entity;
 
-import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +11,7 @@ import javax.validation.constraints.Size;
 
 
 @Entity
-public class Persona implements Serializable {
+public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -20,13 +20,12 @@ public class Persona implements Serializable {
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String nombre;
     
-     @NotNull
+    @NotNull
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String apellido;
-     
-     @NotNull
+    
+    @NotNull
     private String descripcion;
-            
     
     private String img;
 
@@ -80,6 +79,8 @@ public class Persona implements Serializable {
         this.img = img;
     }
 
+    
+    
     
     
     
