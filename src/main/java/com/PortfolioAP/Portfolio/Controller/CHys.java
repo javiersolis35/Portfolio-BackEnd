@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = {"https://portfolio-backend-myr2.onrender.com", "http://localhost:8080"})
 
+
 @RequestMapping("/skill")
 public class CHys {
 
