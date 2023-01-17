@@ -27,7 +27,7 @@ public class WebConfig implements WebMvcConfigurer {
       @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http:localhost:8080")
+                .allowedOrigins("http:localhost:8080", "https://portfoliofrontend-b6024.web.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
                 .allowCredentials(true);
