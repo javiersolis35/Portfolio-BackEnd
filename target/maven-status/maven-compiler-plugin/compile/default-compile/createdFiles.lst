@@ -1,5 +1,6 @@
 com\PortfolioAP\Portfolio\Security\jwt\JwtEntryPoint.class
 com\PortfolioAP\Portfolio\Repository\REducacion.class
+com\PortfolioAP\Portfolio\WebConfig.class
 com\PortfolioAP\Portfolio\Security\Service\UsuarioService.class
 com\PortfolioAP\Portfolio\Dto\dtoPersona.class
 com\PortfolioAP\Portfolio\Service\SExperiencia.class
